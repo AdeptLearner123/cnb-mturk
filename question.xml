@@ -1,0 +1,52 @@
+    <Overview>
+        <Title>$TITLE</Title>
+    </Overview>
+    <Question>
+        <QuestionIdentifier>$CLUE_IDENTIFIER</QuestionIdentifier>
+        <DisplayName>Clue:</DisplayName>
+        <QuestionContent>
+            <Text>
+                Clue for this pair:
+            </Text>
+        </QuestionContent>
+        <AnswerSpecification>
+            <FreeTextAnswer>
+                <Constraints>
+                    <Length minLength="2" maxLength="20"/>
+                </Constraints>
+                <NumberOfLinesSuggestion>1</NumberOfLinesSuggestion>
+            </FreeTextAnswer>
+        </AnswerSpecification>
+    </Question>
+
+    <Question>
+        <QuestionIdentifier>$EXPLANATION_1_IDENTIFIER</QuestionIdentifier>
+        <DisplayName>Explanation 1:</DisplayName>
+        <QuestionContent>
+            <Text>$EXPLANATION_1_LABEL</Text>
+        </QuestionContent>
+        <AnswerSpecification>
+            <FreeTextAnswer>
+                <Constraints>
+                    <Length minLength="2" maxLength="500"/>
+                </Constraints>
+                <NumberOfLinesSuggestion>1</NumberOfLinesSuggestion>
+            </FreeTextAnswer>
+        </AnswerSpecification>
+    </Question>
+
+    <Question>
+        <QuestionIdentifier>$EXPLANATION_2_IDENTIFIER</QuestionIdentifier>
+        <DisplayName>Explanation 2:</DisplayName>
+        <QuestionContent>
+            <Text>$EXPLANATION_2_LABEL</Text>
+        </QuestionContent>
+        <AnswerSpecification>
+            <FreeTextAnswer>
+                <Constraints>
+                    <Length minLength="2" maxLength="500"/>
+                </Constraints>
+                <NumberOfLinesSuggestion>1</NumberOfLinesSuggestion>
+            </FreeTextAnswer>
+        </AnswerSpecification>
+    </Question>

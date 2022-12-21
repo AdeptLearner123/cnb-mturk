@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cnb-mturk"
+version = "0.1.0"
+description = ""
+authors = ["Nalu Zou"]
+readme = "README.md"
+packages = [{include = "cnb_mturk"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "^1.26.34"
+xmltodict = "^0.13.0"
+
+[tool.poetry.scripts]
+create-tasks = "cnb_mturk.create_tasks:main"
+get-results = "cnb_mturk.get_results:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

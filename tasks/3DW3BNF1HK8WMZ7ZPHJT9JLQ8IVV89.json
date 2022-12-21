@@ -1,0 +1,23 @@
+{
+    "HIT_id": "3DW3BNF1HK8WMZ7ZPHJT9JLQ8IVV89",
+    "pairs": [
+        {
+            "word1": "PRESS",
+            "word2": "BUG",
+            "result": {
+                "clue": "SQUASH",
+                "explanation1": "PRESS is related to SQUASH because PRESSING is SQUASHING",
+                "explanation2": "Explanation"
+            }
+        },
+        {
+            "word1": "MISSILE",
+            "word2": "VET",
+            "result": {
+                "clue": "WAR",
+                "explanation1": "Hi",
+                "explanation2": "There"
+            }
+        }
+    ]
+}

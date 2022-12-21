@@ -1,0 +1,34 @@
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+    <Overview>
+        <FormattedContent><![CDATA[
+        For each pair of words below, give a Code Names clue that is related to both words.
+        Then, explain why the chosen clue is related to each of the words.
+
+        If you cannot think of a clue that links a pair of words, you may choose to skip that pair by leaving the answer fields empty.
+        <b>For the task to be approved, 10 out of the 15 word pairs must have a valid clue and explanations.</b>
+        ]]></FormattedContent>
+
+        <Text>Requirements for a Code Names clue to be valid:</Text>
+        <List>
+            <ListItem>Must be a single word (no hyphens and no spaces).</ListItem>
+            <ListItem>Must be related to the words through meaning and not word structure.
+                For example, "Mammal" is a valid clue for "Dog" because dogs are mammals.
+                However, cluing "Log" for "Dog" because they rhyme or cluing "Three" for "Dog" because "Dog" is a 3-letter word are invalid.</ListItem>
+        </List>
+
+        <Text>Other requirements:</Text>
+        <List>
+            <ListItem>Explanations should begin with "WORD is related to CLUE because ...".</ListItem>
+            <ListItem>All occurrences of the clue and word in the explanation should be in SCREAMING CASE</ListItem>
+            <ListItem>Clues should have all characters CAPITALIZED.</ListItem>
+        </List>
+
+        <Title>Example</Title>
+        <Text>Word 1: TORCH
+        Word 2: ICE
+        Clue: MELT
+        Explanation 1: TORCH is related to MELT because a TORCH is a tool that can be used to melt things.
+        Explanation 2: ICE is related to MELT because ICE melts at room temperature.</Text>
+    </Overview>
+$QUESTIONS
+</QuestionForm>
